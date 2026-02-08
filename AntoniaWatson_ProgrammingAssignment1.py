@@ -1,10 +1,10 @@
 """
 Cinema Ticket Pre-Sale Application
 Allows buyers to purchase up to 4 tickets each
-Maximum of 20 tickets sold total
+Maximum of 10 tickets sold total
 """
 
-MAX_TICKETS = 20
+MAX_TICKETS = 10
 MAX_PER_BUYER = 4
 
 def get_ticket_request(tickets_remaining):
