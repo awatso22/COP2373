@@ -12,7 +12,7 @@ def get_ticket_request(tickets_remaining):
     Prompts the user for the number of tickets they want to buy
     Ensures the request is valid before returning it
     """
-    requested = int(input(f"How many tickets would you like to buy?(1-{MAX_PER_BUYER}): "))
+    requested = int(input(f"How many tickets are you going to purchase?(1-{MAX_PER_BUYER}): "))
 
     if requested < 1:
         print("You must buy at least 1 ticket.")
