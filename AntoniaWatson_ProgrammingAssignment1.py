@@ -1,7 +1,7 @@
 """
 Cinema Ticket Pre-Sale Application
 Allows buyers to purchase up to 4 tickets each
-Maximum of 10 tickets sold total
+Maximum of 10 tickets sold sum
 """
 
 MAX_TICKETS = 10
@@ -31,7 +31,7 @@ def run_ticket_sales():
     Main function that runs the ticket sales loop
     """
     tickets_remaining = MAX_TICKETS
-    total_buyers = 0
+    sum_buyers = 0
 
     while tickets_remaining > 0:
         print(f"\nTickets remaining: {tickets_remaining}")
@@ -39,11 +39,11 @@ def run_ticket_sales():
 
         if tickets_requested > 0:
             tickets_remaining -= tickets_requested
-            total_buyers += 1
+            sum_buyers += 1
             print(f"Purchase successful! {tickets_remaining} tickets left.")
 
     print("\nAll tickets have been sold!")
-    print(f"Total number of buyers: {total_buyers}")
+    print(f"Sum number of buyers: {sum_buyers}")
 
 # Start the program
 run_ticket_sales()
