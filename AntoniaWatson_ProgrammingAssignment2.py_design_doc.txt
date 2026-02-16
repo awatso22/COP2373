@@ -1,0 +1,21 @@
+# Technical Design Document: AntoniaWatson_ProgrammingAssignment2
+
+# Name: Antonia Watson
+# Date: February 12, 2026
+# Program Description: Spam email scoring
+
+## Function: calculate_spam_score
+Scans the message and calculates the total spam score.
+:param message: str (The email content)
+:param trigger_list: list (A list of triggers)
+:return: tuple (int score, list found_words)
+
+## Function: main
+None
+
+## Function: rate_spam_likelihood
+Determines the likelihood of spam given the total spam score.
+:param score: int
+:return: str (The spam likelihood)
+
+#Link to your repository: https://github.com/awatso22/COP2373
