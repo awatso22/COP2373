@@ -1,21 +1,26 @@
-# Technical Design Document: AntoniaWatson_ProgrammingAssignment2
+# Technical Design Document: AntoniaWatson_ProgrammingAssignment3
 
 # Name: Antonia Watson
-# Date: February 12, 2026
-# Program Description: Spam email scoring
+# Date: February 22, 2026
+# Program Description: Sorting expense list
 
-## Function: calculate_spam_score
-Scans the message and calculates the total spam score.
-:param message: str (The email content)
-:param trigger_list: list (A list of triggers)
-:return: tuple (int score, list found_words)
+## Function: calculate_total
+Uses reduce to calculate the total amount expenses.
+Returns the total amount expenses.
+
+## Function: find_highest
+Uses reduce to find the highest amount expenses.
+Returns the highest amount expenses.
+
+## Function: find_lowest
+Uses reduce to find the lowest amount expenses.
+Returns the lowest amount expenses.
+
+## Function: get_expenses
+Asks the user to enter expense types and amounts.
+Returns a dictionary containing expense data.
 
 ## Function: main
 None
-
-## Function: rate_spam_likelihood
-Determines the likelihood of spam given the total spam score.
-:param score: int
-:return: str (The spam likelihood)
 
 #Link to your repository: https://github.com/awatso22/COP2373
