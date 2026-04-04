@@ -1,7 +1,7 @@
 import csv
 
 def write_grades():
-    num_students = int(input('Enter number of students: '))
+    num_students = int(input('How many students do you want to enter?'))
 
     with open('grades.csv', 'a') as file:
         writer = csv.writer(file)
@@ -24,3 +24,6 @@ def write_grades():
             writer.writerow([first_name, last_name, exam_1, exam_2, exam_3])
 
 print("\nData successfully written to 'grades.csv'")
+
+if __name__ == '__main__':
+    write_grades()
